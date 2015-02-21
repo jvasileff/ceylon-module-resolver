@@ -207,7 +207,7 @@ public class AetherUtils {
                         }
                     }
 
-                    ArtifactResult dr = createArtifactResult(repository, dCo, false, repositoryDisplayString);
+                    ArtifactResult dr = createArtifactResult(repository, dCo, true, repositoryDisplayString);
                     dependencies.add(dr);
                 }
 
